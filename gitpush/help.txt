@@ -1,0 +1,14 @@
+*** Installer le script dans ~/bin ***
+
+mkdir -p ~/bin
+cp gitpush.sh ~/bin/gitpush
+chmod +x ~/bin/gitpush
+
+- Ajoute cette ligne dans ~/.bashrc
+
+export PATH="$HOME/bin:$PATH"
+
+- ensuite exécuter simplement :
+
+gitpush
+
